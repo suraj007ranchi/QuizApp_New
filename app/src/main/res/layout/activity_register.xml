@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/pista"
+    android:layout_margin="10sp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:layout_margin="10sp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UseCompoundDrawables">
+
+        <TextView
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/dark_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:text="@string/register_here"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:contentDescription="@string/register_here"
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:src="@drawable/outline_app_registration_24" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="600sp"
+        android:layout_margin="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <EditText
+            android:textColorHint="@color/dark_blue"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:id="@+id/editTextText"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:autofillHints="username"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="@string/enter_username" />
+
+        <EditText
+            android:textColorHint="@color/dark_blue"
+            android:textSize="20sp"
+            android:id="@+id/editTextText2"
+            android:layout_width="300sp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:autofillHints="password"
+            android:hint="@string/enter_password" />
+        <EditText
+            android:textColorHint="@color/dark_blue"
+            android:textSize="20sp"
+            android:id="@+id/editTextText3"
+            android:layout_width="300sp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:autofillHints="text"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="@string/enter_mobile_number" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:id="@+id/button2"
+                android:layout_width="0sp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/register"
+                tools:ignore="ButtonStyle" />
+            <Button
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:id="@+id/getAll"
+                android:layout_width="0sp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/getall_users"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:padding="10sp"
+            android:layout_marginTop="10sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/reg_login"
+                android:textColor="@color/dark_blue"
+                android:gravity="center"
+                android:text="@string/click_to_login"
+                android:layout_weight="1"
+                android:layout_width="0sp"
+                android:layout_height="30sp"/>
+
+            <TextView
+                android:id="@+id/reg_guest"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/play_as_guest"
+                android:textColor="@color/dark_blue" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_reg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

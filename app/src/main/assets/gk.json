@@ -1,26 +1,92 @@
 [
-  {
-    "question": "What is the most preferred image format used for logos in the Wikimedia database?",
-    "option1": ".svg",
-    "option2": ".png",
-    "option3": ".jpeg",
-    "option4": ".gif",
-    "answer": "svg"
-  },
-  {
-    "question": "On a standard American QWERTY keyboard, what symbol will you enter if you hold the shift key and press 1?",
-    "correct_answer": "Exclamation Mark",
-    "option2": "Dollar Sign",
-    "option3": "Percent Sign",
-    "option4": "Asterisk",
-    "answer": "Exclamation Mark"
-  },
-  {
-    "question": "The C programming language was created by this American computer scientist. ",
-    "option1": "Dennis Ritchie",
-    "option2": "Tim Berners Lee",
-    "option3": "Will Smith",
-    "option4": "Willis Ware",
-    "answer": "Dennis Ritchie"
-  }
+    {
+      "question": "What style of beer will typically have a higher than average hop content?",
+      "correct_answer": "India Pale Ale",
+      "incorrect_answers": [
+        "Stout",
+        "Extra Special Bitter",
+        "Scotch Ale"
+      ]
+    },
+    {
+      "question": "What is the largest living species of penguin?",
+      "correct_answer": "Emperor",
+      "incorrect_answers": [
+        "King",
+        "Gentoo",
+        "Adele"
+      ]
+    },
+    {
+      "question": "Of the following months, which has the most amount of days?",
+      "correct_answer": "December",
+      "incorrect_answers": [
+        "April",
+        "September",
+        "November "
+      ]
+    },
+    {
+      "question": "Which of these colours is NOT featured in the logo for Google?",
+      "correct_answer": "Pink",
+      "incorrect_answers": [
+        "Yellow",
+        "Blue",
+        "Green"
+      ]
+    },
+    {
+      "question": "What element has the chemical symbol Kr?",
+      "correct_answer": "Krypton",
+      "incorrect_answers": [
+        "Kerosine",
+        "Kineticium",
+        "Curium"
+      ]
+    },
+    {
+      "question": "Virgin Trains, Virgin Atlantic and Virgin Racing, are all companies owned by which famous entrepreneur?   ",
+      "correct_answer": "Richard Branson",
+      "incorrect_answers": [
+        "Alan Sugar",
+        "Donald Trump",
+        "Bill Gates"
+      ]
+    },
+    {
+      "question": "What nuts are used in the production of marzipan?",
+      "correct_answer": "Almonds",
+      "incorrect_answers": [
+        "Peanuts",
+        "Walnuts",
+        "Pistachios"
+      ]
+    },
+    {
+      "question": "Which sign of the zodiac is represented by the Crab?",
+      "correct_answer": "Cancer",
+      "incorrect_answers": [
+        "Libra",
+        "Virgo",
+        "Sagittarius"
+      ]
+    },
+    {
+      "question": "Terry Gilliam was an animator that worked with which British comedy group?",
+      "correct_answer": "Monty Python",
+      "incorrect_answers": [
+        "The Goodies&lrm;",
+        "The League of Gentlemen&lrm;",
+        "The Penny Dreadfuls"
+      ]
+    },
+    {
+      "question": "Five dollars is worth how many nickels?",
+      "correct_answer": "100",
+      "incorrect_answers": [
+        "50",
+        "25",
+        "69"
+      ]
+    }
 ]

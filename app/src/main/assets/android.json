@@ -1,0 +1,92 @@
+[
+  {
+    "question": "What is the name of the virtual machine used by Android to run apps?",
+    "correct_answer": "ART (Android Runtime) ",
+    "incorrect_answers": [
+      "JVM (Java Virtual Machine)",
+      "Dalvik Virtual Machine",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Which of these is NOT a core component of the Android operating system?",
+    "correct_answer": "iCloud",
+    "incorrect_answers": [
+      "Linux Kernel",
+      "Dalvik Virtual Machine",
+      "User Interface"
+    ]
+  },
+  {
+    "question": "What permission do most Android apps require to access your location?",
+    "correct_answer": "Location access",
+    "incorrect_answers": [
+      "Camera access",
+      "Microphone access",
+      "Storage access"
+    ]
+  },
+  {
+    "question": "In Android, what is the purpose of the AndroidManifest.xml file?",
+    "correct_answer": "Specifies app permissions and components",
+    "incorrect_answers": [
+      "Defines the user interface",
+      "Stores application data",
+      "Handles network communication"
+    ]
+  },
+  {
+    "question": "Which programming language is primarily used for Android app development?",
+    "correct_answer": "JAVA / Kotlin",
+    "incorrect_answers": [
+      "C#",
+      "Swift",
+      "Python"
+    ]
+  },
+  {
+    "question": "What is the name of the file format used for Android application packages?",
+    "correct_answer": ".apk",
+    "incorrect_answers": [
+      ".exe",
+      ".dmg",
+      ".deb"
+    ]
+  },
+  {
+    "question": "What is the name of the Android's user interface design language?",
+    "correct_answer": "Material Design",
+    "incorrect_answers": [
+      "Metro UI",
+      "Aqua UI",
+      "Skeuomorphism"
+    ]
+  },
+  {
+    "question": "What is the purpose of the Android Debug Bridge (ADB)?",
+    "correct_answer": "Debugging and interacting with an Android device",
+    "incorrect_answers": [
+      "Managing app data",
+      "Compiling code",
+      "Designing user interfaces"
+    ]
+  },
+  {
+    "question": "Which of these is NOT a core component of the Android architecture?",
+    "correct_answer": "Cocoa Touch Framework",
+    "incorrect_answers": [
+      "Linux Kernel",
+      "Hardware Abstraction Layer (HAL)",
+      "Android Runtime (ART)"
+    ]
+  },
+  {
+    "question": "What is the purpose of the Intent in Android?",
+    "correct_answer": "To perform actions and navigate between activities",
+    "incorrect_answers": [
+      "To define user interface elements",
+      "To manage application data",
+      "To handle background tasks"
+    ]
+  }
+]

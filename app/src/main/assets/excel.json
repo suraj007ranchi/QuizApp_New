@@ -1,0 +1,92 @@
+[
+  {
+    "question": "What is the function to calculate the sum of a range of cells?",
+    "correct_answer": "Sum",
+    "incorrect_answers": [
+      "Average",
+      "MIN",
+      "MAX"
+    ]
+  },
+  {
+    "question": "What does the term \"cell address\" refer to in Excel?",
+    "correct_answer": " The intersection of a column and a row.",
+    "incorrect_answers": [
+      "The location of a cell in a row",
+      "The formatting of a cell",
+      "The name of a worksheet."
+    ]
+  },
+  {
+    "question": "Which Excel feature allows you to apply formatting based on specific criteria?",
+    "correct_answer": "Conditional Formatting",
+    "incorrect_answers": [
+      "Data Validation",
+      "Pivot Tables",
+      "Goal Seek"
+    ]
+  },
+  {
+    "question": "What is the purpose of the \"Freeze Panes\" feature in Excel?",
+    "correct_answer": " To lock specific rows or columns from scrolling",
+    "incorrect_answers": [
+      "To hide sensitive data.",
+      "To protect the worksheet from editing.",
+      "To create a drop-down list."
+    ]
+  },
+  {
+    "question": "What is the function to convert text to uppercase in Excel?",
+    "correct_answer": "LOWER",
+    "incorrect_answers": [
+      "PROPER",
+      "UPPER",
+      "TEXT"
+    ]
+  },
+  {
+    "question": "What does the IF function in Excel do?",
+    "correct_answer": "It creates conditional statements.",
+    "incorrect_answers": [
+      "It performs mathematical calculations.",
+      "It generates random numbers.",
+      "It formats cells."
+    ]
+  },
+  {
+    "question": "What is the keyboard shortcut to insert a new row in Excel",
+    "correct_answer": "Ctrl + +",
+    "incorrect_answers": [
+      "Ctrl + -",
+      "Ctrl + Shift + =",
+      "Ctrl + ="
+    ]
+  },
+  {
+    "question": "How do you remove duplicate values in a column in Excel?",
+    "correct_answer": "Use the \"Remove Duplicates\" feature",
+    "incorrect_answers": [
+      "Apply a filter",
+      "Sort the column in ascending order",
+      "iManually delete duplicates"
+    ]
+  },
+  {
+    "question": "What is the purpose of the \"Goal Seek\" feature in Excel?",
+    "correct_answer": "To find the input value needed to achieve a desired output.",
+    "incorrect_answers": [
+      "To find the maximum value in a range.",
+      "To determine the minimum value in a range.",
+      "To calculate the average of a range."
+    ]
+  },
+  {
+    "question": "What is the function to find the smallest value in a range of cells?",
+    "correct_answer": "MAX",
+    "incorrect_answers": [
+      "MIN",
+      "AVERAGE",
+      "SUM"
+    ]
+  }
+]

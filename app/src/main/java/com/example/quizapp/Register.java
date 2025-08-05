@@ -4,10 +4,7 @@ import static kotlin.jvm.internal.Reflection.typeOf;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.Layout;
-import android.util.Log;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -22,17 +19,15 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firebase.firestore.QueryDocumentSnapshot;
-import com.google.firebase.firestore.QuerySnapshot;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 
@@ -41,7 +36,7 @@ public class Register extends AppCompatActivity {
     Button register, getUsers;
     EditText username, password, mobile;
     RecyclerView recyclerView;
-    List<Users> users = new ArrayList<>();
+    List<UsersModal> users = new ArrayList<>();
     UserAdapter adapter; // Initialize your adapter here
     FirebaseFirestore db;
     private static final String TAG = "DocSnippets";
@@ -70,7 +65,7 @@ public class Register extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(Register.this));
 
         db = FirebaseFirestore.getInstance();
-        users = new ArrayList<Users>();
+        users = new ArrayList<UsersModal>();
 
         register.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -157,7 +152,7 @@ public class Register extends AppCompatActivity {
                         .addOnCompleteListener(task -> {
                             if (task.isSuccessful()){
                                 for (DocumentSnapshot documentSnapshot : task.getResult()){
-                                    Users user = documentSnapshot.toObject(Users.class);
+                                    UsersModal user = documentSnapshot.toObject(UsersModal.class);
                                     if (user != null){
                                         users.add(user);
                                     }
@@ -186,6 +181,9 @@ public class Register extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Register.this, Index.class);
+                SimpleDateFormat sdf = new SimpleDateFormat("ddMMyy");
+                String my_id = sdf.format(new Date());
+                intent.putExtra("guest_id","guest"+my_id);
                 startActivity(intent);
             }
         });

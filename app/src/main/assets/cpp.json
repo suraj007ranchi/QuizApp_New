@@ -1,125 +1,92 @@
-{
-  "response_code": 0,
-  "results": [
+[
     {
-      "type": "multiple",
-      "difficulty": "easy",
-      "category": "Science: Mathematics",
-      "question": "What type of angle is greater than 90 degree.?",
-      "correct_answer": "Obtuse",
+      "question": "Who is considered Father of C++ Programming language?",
+      "correct_answer": "Bjarne Stroustrup",
       "incorrect_answers": [
-        "Acute",
-        "Right",
-        "Straight"
+        "Dennis Ritchie",
+        "Ken Thompson",
+        "James Gosling"
       ]
     },
     {
-      "type": "multiple",
-      "difficulty": "easy",
-      "category": "Science: Mathematics",
-      "question": "What is the equation for the area of a sphere?",
-      "correct_answer": "(4/3)*pi*r^3",
+      "question": "Which of the following is a correct way to include a standard C++ header file?",
+      "correct_answer": "#include<iostream>",
       "incorrect_answers": [
-        "4&pi;r^2",
-        "(1\/3)&pi;hr^2",
-        "&pi;r^4"
+        "#include [iostream]",
+        "#include iostream",
+        "#include {iostream}"
       ]
     },
     {
-      "type": "multiple",
-      "difficulty": "easy",
-      "category": "Science: Mathematics",
-      "question": "What prime number comes next after 19?",
-      "correct_answer": "23",
+      "question": "What is the purpose of the new operator in C++?",
+      "correct_answer": "To allocate memory dynamically for an object or array.",
       "incorrect_answers": [
-        "25",
-        "21",
-        "27"
+        "To declare a new variable.",
+        "To create a new class.",
+        "To define a new function."
       ]
     },
     {
-      "type": "multiple",
-      "difficulty": "easy",
-      "category": "Science: Mathematics",
-      "question": "How many sides does a heptagon have?",
-      "correct_answer": "7",
+      "question": "Which of the following is the logical AND operator in C++?",
+      "correct_answer": "&&",
       "incorrect_answers": [
-        "8",
-        "6",
-        "5"
+        "||",
+        "!",
+        "&"
       ]
     },
     {
-      "type": "multiple",
-      "difficulty": "easy",
-      "category": "Science: Mathematics",
-      "question": "What is the correct order of operations for solving equations?",
-      "correct_answer": "Parentheses, Exponents, Multiplication, Division, Addition, Subtraction",
+      "question": "What does the const keyword signify when applied to a variable in C++?",
+      "correct_answer": "The variable's value cannot be changed after initialization.",
       "incorrect_answers": [
-        "Addition, Multiplication, Division, Subtraction, Addition, Parentheses",
-        "Parentheses, Exponents, Addition, Substraction, Multiplication, Division",
-        "The order in which the operations are written."
+        "The variable can be modified only once.",
+        "The variable is a pointer.",
+        "The variable is a global variable."
       ]
     },
     {
-      "type": "multiple",
-      "difficulty": "easy",
-      "category": "Science: Mathematics",
-      "question": "What&#039;s the square root of 49?",
-      "correct_answer": "7",
+      "question": "Which of the following concepts is NOT a pillar of Object-Oriented Programming (OOP) in C++?",
+      "correct_answer": "Debugging",
       "incorrect_answers": [
-        "4",
-        "12",
-        "9"
+        " Encapsulation",
+        "Inheritance",
+        "Polymorphism"
       ]
     },
     {
-      "type": "multiple",
-      "difficulty": "easy",
-      "category": "Science: Mathematics",
-      "question": "In Roman Numerals, what does XL equate to?",
-      "correct_answer": "40",
+      "question": "What is the scope resolution operator in C++?",
+      "correct_answer": "::",
       "incorrect_answers": [
-        "60",
-        "15",
-        "90"
+        ".",
+        "->",
+        "&"
       ]
     },
     {
-      "type": "multiple",
-      "difficulty": "easy",
-      "category": "Science: Mathematics",
-      "question": "How many sides does a trapezium have?",
-      "correct_answer": "4",
+      "question": "Which of the following correctly declares a pointer to an integer in C++?",
+      "correct_answer": "int* ptr;",
       "incorrect_answers": [
-        "3",
-        "5",
-        "6"
+        "*int ptr;",
+        "ptr int;",
+        "int ptr*;"
       ]
     },
     {
-      "type": "multiple",
-      "difficulty": "easy",
-      "category": "Science: Mathematics",
-      "question": "What is the symbol for Displacement?",
-      "correct_answer": "&Delta;r",
+      "question": "What is the primary difference between delete and delete[] in C++?",
+      "correct_answer": "delete is for single objects, delete[] is for arrays.",
       "incorrect_answers": [
-        "dr",
-        "Dp",
-        "r"
+        "delete is for objects, delete[] is for primitive types.",
+        "delete deallocates memory, delete[] does not.",
+        "There is no difference; they are interchangeable."
       ]
     },
     {
-      "type": "multiple",
-      "difficulty": "easy",
-      "category": "Science: Mathematics",
-      "question": "The metric prefix &quot;atto-&quot; makes a measurement how much smaller than the base unit?",
-      "correct_answer": "One Quintillionth",
+      "question": "Which loop guarantees at least one execution of its body, regardless of the condition?",
+      "correct_answer": "do-while loop",
       "incorrect_answers": [
-        "One Billionth",
-        "One Quadrillionth",
-        "One Septillionth"
+        "for",
+        "while",
+        "if-else"
       ]
     }
-  ]
-}
+]

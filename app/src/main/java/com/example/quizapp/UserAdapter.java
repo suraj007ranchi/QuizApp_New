@@ -9,9 +9,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 public class UserAdapter extends RecyclerView.Adapter<UserAdapter.UserViewHolder> {
-    private List<Users> userList;
+    private List<UsersModal> userList;
 
-    public UserAdapter(List<Users> userList) {
+    public UserAdapter(List<UsersModal> userList) {
         this.userList = userList;
     }
 
@@ -24,7 +24,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.UserViewHolder
 
     @Override
     public void onBindViewHolder(@NonNull UserViewHolder holder, int position) {
-        Users users = userList.get(position);
+        UsersModal users = userList.get(position);
         holder.usernameTextView.setText(users.getUsername());
         holder.passwordTextView.setText(users.getPassword());
         holder.mobileTextView.setText(String.valueOf(users.getMobile()));
@@ -48,7 +48,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.UserViewHolder
         }
     }
 
-    public void updateData(List<Users> newUserList) {
+    public void updateData(List<UsersModal> newUserList) {
         this.userList = newUserList;
         notifyDataSetChanged();
     }

@@ -25,33 +25,63 @@ public class Index extends AppCompatActivity {
         android = findViewById(R.id.index_android);
         cpp = findViewById(R.id.index_cpp);
 
+        String guestId = getIntent().getStringExtra("guest_id");
+
         gk.setOnClickListener(view -> {
             //Intent intent = new Intent(Index.this, QuestionActivity.class);
             Intent intent = new Intent(Index.this,QuestionActivity.class);
-            intent.putExtra("category1","gk");
+            intent.putExtra("guest_id1",guestId);
+            intent.putExtra("category","gk");
             startActivity(intent);
         });
 
         ga.setOnClickListener(view -> {
             //Intent intent = new Intent(Index.this,GA_Activity.class);
             Intent intent = new Intent(Index.this,QuestionActivity.class);
-            intent.putExtra("category2","ga");
+            intent.putExtra("guest_id1",guestId);
+            intent.putExtra("category","ga");
             startActivity(intent);
         });
 
         java.setOnClickListener(v->{
             //Intent intent = new Intent(Index.this,JavaActivity.class);
             Intent intent = new Intent(Index.this,QuestionActivity.class);
-            intent.putExtra("category3","java");
+            intent.putExtra("guest_id1",guestId);
+            intent.putExtra("category","java");
             startActivity(intent);
         });
 
         cpp.setOnClickListener(v->{
-            Intent intent = new Intent(Index.this,Cpp_Activity.class);
+            //Intent intent = new Intent(Index.this,Cpp_Activity.class);
+            Intent intent = new Intent(Index.this,QuestionActivity.class);
+            intent.putExtra("guest_id1",guestId);
+            intent.putExtra("category","cpp");
             startActivity(intent);
         });
         dbms.setOnClickListener(v->{
-            Intent intent = new Intent(Index.this, DBMSActivity.class);
+            //Intent intent = new Intent(Index.this, DBMSActivity.class);
+            Intent intent = new Intent(Index.this,QuestionActivity.class);
+            intent.putExtra("guest_id1",guestId);
+            intent.putExtra("category","dbms");
+            startActivity(intent);
+        });
+
+        android.setOnClickListener(v->{
+            Intent intent = new Intent(Index.this,QuestionActivity.class);
+            intent.putExtra("guest_id1",guestId);
+            intent.putExtra("category","android");
+            startActivity(intent);
+        });
+        excel.setOnClickListener(v->{
+            Intent intent = new Intent(Index.this,QuestionActivity.class);
+            intent.putExtra("guest_id1",guestId);
+            intent.putExtra("category","excel");
+            startActivity(intent);
+        });
+        powerpoint.setOnClickListener(v->{
+            Intent intent = new Intent(Index.this,QuestionActivity.class);
+            intent.putExtra("guest_id1",guestId);
+            intent.putExtra("category","powerpoint");
             startActivity(intent);
         });
     }

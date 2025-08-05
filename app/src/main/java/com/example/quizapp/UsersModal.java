@@ -5,12 +5,12 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class Users extends RecyclerView.ViewHolder {
+public class UsersModal extends RecyclerView.ViewHolder {
     private String username;
     private String password;
     private Long mobile;
 
-    public Users(@NonNull View itemView) {
+    public UsersModal(@NonNull View itemView) {
         super(itemView);
     }
 

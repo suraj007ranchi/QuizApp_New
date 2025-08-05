@@ -1,0 +1,92 @@
+[
+  {
+    "question": "What does DBMS stands for?",
+    "correct_answer": "Database Management System",
+    "incorrect_answers": [
+      "Data Backup Management System",
+      "Database Management Service",
+      "Data of Binary Management System"
+    ]
+  },
+  {
+    "question": "Which of the following is NOT a type of DBMS model?",
+    "correct_answer": "Transactional",
+    "incorrect_answers": [
+      "Relational",
+      "Network",
+      "Hierarchical"
+    ]
+  },
+  {
+    "question": "What is the primary function of a DBMS?",
+    "correct_answer": "Data storage and retrieval",
+    "incorrect_answers": [
+      "Managing software installation",
+      "Data processing",
+      "Computer networking"
+    ]
+  },
+  {
+    "question": "Which SQL statement is used to retrieve data from a database?",
+    "correct_answer": "SELECT",
+    "incorrect_answers": [
+      "INSERT",
+      "UPDATE",
+      "DELETE"
+    ]
+  },
+  {
+    "question": "What does normalization in a relational database help with?",
+    "correct_answer": "Avoiding redundancy",
+    "incorrect_answers": [
+      "Increasing performance",
+      "Reducing query time",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "What is a primary key in a database?",
+    "correct_answer": "A unique identifier for records in a table",
+    "incorrect_answers": [
+      "A key that allows duplicate values",
+      "A foreign key reference",
+      "A method of data encryption"
+    ]
+  },
+  {
+    "question": "Which of the following is a component of DBMS?",
+    "correct_answer": "All of them",
+    "incorrect_answers": [
+      "Query Processor",
+      "Database Engine",
+      "Indexing Engine"
+    ]
+  },
+  {
+    "question": "What does ACID properties in DBMS ensure?",
+    "correct_answer": " Atomicity, Consistency, Isolation, Durability",
+    "incorrect_answers": [
+      "Authenticity, Consistency, Isolation, Durability",
+      "Atomicity, Consistency, Integration, Durability",
+      "Atomicity, Consistency, Isolation, Distribution"
+    ]
+  },
+  {
+    "question": "What is the purpose of indexing in a database?",
+    "correct_answer": "To improve query performance",
+    "incorrect_answers": [
+      "To increase data redundancy",
+      "To store more data",
+      "To simplify database design"
+    ]
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of a DBMS?",
+    "correct_answer": "Data redundancy ",
+    "incorrect_answers": [
+      "Data integrity",
+      "Data security",
+      "Data independence"
+    ]
+  }
+]

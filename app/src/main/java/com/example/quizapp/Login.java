@@ -11,6 +11,9 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class Login extends AppCompatActivity {
     TextView guest;
     @Override
@@ -30,6 +33,9 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Login.this, Index.class);
+                SimpleDateFormat sdf = new SimpleDateFormat("ddMMyy");
+                String my_id = sdf.format(new Date());
+                intent.putExtra("guest_id","guest"+my_id);
                 startActivity(intent);
             }
         });

@@ -1,0 +1,92 @@
+[
+  {
+    "question": "Which file format can be added to a PowerPoint show?",
+    "correct_answer": ".pptx",
+    "incorrect_answers": [
+      ".txt",
+      ".docx",
+      ".pdf"
+    ]
+  },
+  {
+    "question": "What is a motion path in PowerPoint?",
+    "correct_answer": "What is a motion path in PowerPoint",
+    "incorrect_answers": [
+      " A visual representation of the slide's background, according to Scribd.",
+      "A feature that allows you to add notes to your slides, according to Scribd.",
+      "A way to organize your slides into sections, according to Scribd."
+    ]
+  },
+  {
+    "question": "What is a slide master?",
+    "correct_answer": "A template that controls the look and feel of all slides in a presentation.",
+    "incorrect_answers": [
+      "The first slide in a presentation.",
+      "A type of animation that can be applied to text.",
+      "A feature that allows you to add comments to your slides."
+    ]
+  },
+  {
+    "question": "Which of the following is NOT a slide layout element?",
+    "correct_answer": "Animations",
+    "incorrect_answers": [
+      "Titles",
+      "Lists",
+      "Charts"
+    ]
+  },
+  {
+    "question": "What is the purpose of slide transitions?",
+    "correct_answer": "To control the way one slide moves to the next.",
+    "incorrect_answers": [
+      " To add animations to objects on a slide..",
+      "To add sounds to your presentation.",
+      "To create custom animations."
+    ]
+  },
+  {
+    "question": "How can you add images to a PowerPoint slide?",
+    "correct_answer": "All of the above.",
+    "incorrect_answers": [
+      "By using the Insert > Picture option.",
+      "By dragging and dropping the image file onto the slide.",
+      " By copying and pasting the image into the slide."
+    ]
+  },
+  {
+    "question": "What does the \"5/5/5\" rule refer to in PowerPoint design?",
+    "correct_answer": "No more than 5 words per line, 5 lines per slide, and 5 text-heavy slides in a row.",
+    "incorrect_answers": [
+      "No more than 5 minutes of presentation time, 5 words per line, and 5 lines per slide.",
+      "No more than 5 slides per presentation, 5 words per line, and 5 minutes of presentation time.",
+      "No more than 5 seconds of animation per slide, 5 words per line, and 5 minutes of presentation time. "
+    ]
+  },
+  {
+    "question": "From which menu can you access Text Box, Picture, Chart etc.?",
+    "correct_answer": "Insert",
+    "incorrect_answers": [
+      "View",
+      "Edit",
+      "File"
+    ]
+  },
+  {
+    "question": "Which of the following font effects is NOT available in the PowerPoint Font dialog box?",
+    "correct_answer": "Strikethrough ",
+    "incorrect_answers": [
+      "Shadow",
+      "Underline",
+      "Emboss"
+    ]
+  },
+  {
+    "question": "What do you use if you want to add text to a slide?",
+    "correct_answer": "Text Box",
+    "incorrect_answers": [
+      "Comment Box",
+      "Text layer",
+      "Note Book"
+    ]
+  }
+]
